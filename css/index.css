@@ -1,0 +1,151 @@
+* {
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+.section {
+	background: url(../img/bg.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+
+.home {
+	width: 100%;
+	height: auto;
+	padding-top: 70px;
+}
+
+.home-dead {
+	width: 150px;
+	height: 150px;
+	margin: 50px auto;
+}
+
+.home-dead img {
+	width: 150px;
+	height: 150px;
+	border: solid 1px #fff;
+	border-radius: 75px;
+}
+
+.line {
+	width: 350px;
+	height: 3px;
+	background-color: #fff;
+	margin: 10px auto;
+}
+
+.home-content {
+	text-align: center;
+	margin-top: 50px;
+	line-height: 30px;
+	font-size: 15px;
+}
+
+.about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100%;
+}
+
+.about-me {
+	width: 700px;
+	height: 350px;
+	border: solid 1px #fff;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	padding: 0 60px;
+}
+
+.content-top {
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+.slide {
+	width: 700px;
+	height: 350px;
+}
+
+.desgin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100%;
+}
+
+.my-desgin {
+	width: 700px;
+	height: 350px;
+	border: solid 1px #fff;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	padding: 0 60px;
+	position: relative;
+}
+
+.desgin-top {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+#moveRight {
+	left: 50%;
+	margin-left: -50px;
+	position: absolute;
+	bottom: 10px;
+}
+
+button#moveRight {
+	width: 100px;
+	height: 30px;
+	color: #122B40;
+	background-color: #D9534F;
+	border-radius: 20px;
+}
+
+.contact {
+	width: 100%;
+	min-height: 100%;
+	padding-top: 100px;
+}
+
+.contact-me {
+	width: 220px;
+	height: 400px;
+	border: solid 1px #FFFFFF;
+	margin: 0 auto;
+}
+
+.contact-me li {
+	text-align: center;
+	border: solid 1px #FFFFFF;
+	padding: 8px 0;
+	margin: 32px 20px;
+	list-style: none;
+}
+
+@media only screen and (max-width: 680px) {
+	.about-me {
+		width: 350px;
+		height: 470px;
+		border: solid 1px #fff;
+		background: rgba(255, 255, 255, 0.2);
+		border-radius: 10px;
+		padding: 0 60px;
+	}
+	.my-desgin {
+	width: 350px;
+	height: 470px;
+	border: solid 1px #fff;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	padding: 0 60px;
+	position: relative;
+	}
+}
